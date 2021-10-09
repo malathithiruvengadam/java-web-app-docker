@@ -1,3 +1,3 @@
-FROM tomcat:latest
+FROM httpd:latest
 # Dummy text to test 
-COPY target/java-web-app*.war /usr/local/tomcat/webapps/java-web-app.war
+COPY target/java-web-app*.war /usr/local/httpd/webapps/java-web-app.war
